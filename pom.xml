@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
 
     <name>Simple Push Notifications</name>
-    <url>https://github.com/Rafal-Laskowski/Wait-Until</url>
+    <url>https://github.com/Rafal-Laskowski/Simple-Push-Notifications</url>
     <description>Library to show push notifications</description>
 
     <properties>
