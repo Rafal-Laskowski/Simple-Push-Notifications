@@ -2,9 +2,9 @@ package io.github.laskowski.push.notification;
 
 import java.awt.*;
 
-public abstract class WarningPushNotification extends DefaultPushNotification {
+public class WarningPushNotification extends DefaultPushNotification {
 
-    public WarningPushNotification(String text) {
-        super(text, TrayIcon.MessageType.WARNING);
+    public WarningPushNotification(String caption, String tooltip, String text) {
+        super(caption, tooltip, text, TrayIcon.MessageType.WARNING);
     }
 }
